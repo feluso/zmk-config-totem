@@ -34,7 +34,7 @@
             &kp GRAVE     &kp Q        &kp X       &kp M         &kp C       &kp V     &kp K      &kp P       &kp DOT           &kp MINUS      &kp FSLH     &kp COMMA
                                                    &lt 6 TAB   &lt 3 DEL  &lt 2 SPACE     &lt 2 SPACE  &lt 3 BSPC  &lt 6 SEMICOLON
             >;
-        }
+        };
 
         grafitaux {                             
             bindings = <

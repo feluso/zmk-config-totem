@@ -38,12 +38,14 @@
 
         grafitaux {                             
             bindings = <
-                   &mt F1 N1 &mt F2  N2  &mt F3 N3      &mt F4 N4       &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &trans  
-                   &mt F5 N5 &mt F6  N6  &mt F7 N7      &mt F8 N8       &kp ENTER  &kp LBKT  &kp RBKT  &kp BSPC   &trans  
-            &trans &mt F9 N9 &mt F10 N0  &mt F11 MINUS  &mt F12 EQUAL   &kp DOWN   &trans    &kp UP    &kp BSLH   &trans  &trans
+                   &mt F1 N1 &mt F2  N2  &mt F3 N3      &mt F4 N4     &trans     &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &trans  
+                   &mt F5 N5 &mt F6  N6  &mt F7 N7      &mt F8 N8     &trans     &kp ENTER  &kp LBKT  &kp RBKT  &kp BSPC   &trans  
+            &trans &mt F9 N9 &mt F10 N0  &mt F11 MINUS  &mt F12 EQUAL &trans     &kp DOWN   &trans    &kp UP    &kp BSLH   &trans  &trans
                                               &trans  &trans  &trans           &trans  &trans  &trans
             >;
         };
+12346782
+        
 
         base {
             bindings = <

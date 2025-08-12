@@ -40,7 +40,7 @@
             bindings = <
                     &mt F1 N1 &mt F2  N2  &mt F3 N3      &mt F4 N4     &trans     &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &trans  
                     &mt F5 N5 &mt F6  N6  &mt F7 N7      &mt F8 N8     &trans     &kp ENTER  &kp LBKT  &kp RBKT  &kp BSPC   &trans  
-            &kp ESC &mt F9 N9 &mt F10 N0  &mt F11 MINUS  &mt F12 EQUAL &trans     &trans     &kp BSLH  &trns     &trans     &trans  &kp ESC
+            &kp ESC &mt F9 N9 &mt F10 N0  &mt F11 MINUS  &mt F12 EQUAL &trans     &trans     &kp BSLH  &trans    &trans     &trans  &kp ESC
                                               &trans  &trans  &trans           &trans  &trans  &trans
             >;
         };

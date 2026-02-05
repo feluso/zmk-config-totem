@@ -3,7 +3,7 @@
 //                                                        ▄▀▀▀▄  ▄  ▄▀▀▀▄  ▄  ▄▀▀▀▄  █  ▄▀▀▀▄
 //                                                        █   █  █  █   █  █  █   █  █  █   █
 //                                                         ▀▀▀   █   ▀▀▀   █   ▀▀▀   ▀   ▀▀▀
-//                                                               █      ▄▄▄█▄▄▄    █   █  
+//                                                               █      ▄▄▄█▄▄▄    █   █
 //                                                               ▀      █  █  █     █▄█
 //                                                             ▀▀▀▀▀    █  █  █      ▀
 //                                                                      ▀  ▀  ▀
@@ -29,22 +29,22 @@
 
         grafite {
             bindings = <
-                          &kp B        &kp L       &kp D         &kp W       &kp Z     &kp SQT    &kp F       &kp O              &kp U         &kp J        
-                          &mt LCTRL N  &mt LALT R  &mt LSHIFT T  &mt LGUI S  &kp G     &kp Y      &mt RGUI H  &mt RSHIFT A      &mt RALT E     &mt RCTRL I  
-            &kp V         &kp Q        &kp X       &kp M         &kp C       &kp GRAVE &kp COMMA  &kp P       &kp DOT           &kp MINUS      &kp FSLH     &kp K
-                                                   &lt 4 TAB   &lt 3 BSPC  &lt 1 SPACE     &lt 1 SPACE  &lt 3 BSPC  &lt 4 SEMICOLON
+                          &kp B        &kp L       &kp D         &kp W       &kp Z     &kp SQT    &kp F       &kp O              &kp U         &kp J
+                          &mt LCTRL N  &mt LALT R  &mt LSHIFT T  &mt LGUI S  &kp G     &kp Y      &mt RGUI H  &mt RSHIFT A      &mt RALT E     &mt RCTRL I
+            &kp V         &kp Q        &kp X       &kp M         &kp C       &kp V &kp K  &kp P       &kp DOT           &kp MINUS      &kp FSLH     &kp K
+                                                   &lt 4 BSPC   &lt 1 SPACE  &lt 3 TAB    &lt 3 SEMICOLON  &lt 1 SPACE  &lt 4 BSPC
             >;
         };
 
-        grafitaux {                             
+        grafitaux {
             bindings = <
-                    &mt F1 N1 &mt F2  N2  &mt F3 N3      &mt F4 N4     &trans     &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &trans  
-                    &mt F5 N5 &mt F6  N6  &mt F7 N7      &mt F8 N8     &trans     &kp ENTER  &kp LBKT  &kp RBKT  &kp BSPC   &trans  
-            &kp ESC &mt F9 N9 &mt F10 N0  &mt F11 MINUS  &mt F12 EQUAL &trans     &trans     &kp BSLH  &trans    &trans     &trans  &kp ESC
+                    &mt F1 N1 &mt F2  N2  &mt F3 N3      &mt F4 N4     &trans     &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &trans
+                    &mt F5 N5 &mt F6  N6  &mt F7 N7      &mt F8 N8     &trans     &kp ENTER  &kp LBKT  &kp RBKT  &kp BSPC   &trans
+            &kp ESC &mt F9 N9 &mt F10 N0  &mt F11 MINUS  &mt F12 EQUAL &GRAVE     &COMMA     &kp BSLH  &SEMICOLON    &trans     &trans  &kp ESC
                                               &trans  &kp DEL   &trans           &trans  &kp DEL  &trans
             >;
         };
-        
+
 
         base {
             bindings = <
